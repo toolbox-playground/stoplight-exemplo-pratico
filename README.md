@@ -1,11 +1,14 @@
 # stoplight-example
-Repository with some OpenApi Example and with pipeline!
+Repositório com exemplo de execução de stoplight via pipeline!
+
+## Passo a Passo
+Quer entender mais? Acesse nosso [artigo](https://medium.com/toolbox-devops/documentando-sua-api-com-stoplight-a2d4a1e82c5a). !
 
 ## Pipelines
 - Bitbucket
 - AzureDevOps
 
-### Todos
+### To-Dos
 Give me some ideias :P
 
 License
