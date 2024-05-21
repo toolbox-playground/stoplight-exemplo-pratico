@@ -28,6 +28,7 @@ jobs:
                 git config --global user.email "pipelines@toolboxdevops.cloud"
                 git config --global user.name "Toolbox Automation"
 
+                
             - name: Check commit message for specific keywords
               run: |
                 text=$(git log -1 --no-merges --pretty=%B)
