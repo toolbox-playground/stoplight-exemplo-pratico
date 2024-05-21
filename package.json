@@ -1,0 +1,23 @@
+{
+  "name": "stoplight-exemplo-pratico",
+  "version": "1.0.1",
+  "description": "Repositório com exemplo de execução de stoplight via pipeline!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "commit-and-tag-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toolbox-playground/stoplight-exemplo-pratico.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toolbox-playground/stoplight-exemplo-pratico/issues"
+  },
+  "homepage": "https://github.com/toolbox-playground/stoplight-exemplo-pratico#readme",
+  "dependencies": {
+    "commit-and-tag-version": "^12.4.1"
+  }
+}
