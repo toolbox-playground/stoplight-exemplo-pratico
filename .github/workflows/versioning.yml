@@ -46,4 +46,4 @@ jobs:
                   npm run release -- --release-as patch
                   echo {{ Default Patching Versioning }}
                 fi
-                git push --follow-tags origin
+                git push --follow-tags origin main
