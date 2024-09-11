@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.1.0 (2024-09-11)
+
+
+### Features
+
+* validando stoplight via github actions pipeline ([9a86f6a](https://github.com/toolbox-playground/stoplight-exemplo-pratico/commit/9a86f6aa04a591ecc657e0b8a8be70288c2ac300))
+
 ## 1.0.2 (2024-05-23)
 
 
