@@ -1,5 +1,5 @@
 
-name: ci
+name: StopLight
 
 on: 
     push:
@@ -10,7 +10,7 @@ on:
             - main
 
 jobs: 
-    ci:
+    StopLight:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
@@ -27,4 +27,5 @@ jobs:
 
             - name: Stoplight
               run: |
-                npx @stoplight/cli@6 push --ci-token c889a51e-b9d9-4810-ba41-91fca43e62b2
+                npx @stoplight/cli@6 push --ci-token a720c262-3a0b-472a-8879-0350f1502692
+
