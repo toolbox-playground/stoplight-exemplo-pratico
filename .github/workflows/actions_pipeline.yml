@@ -1,0 +1,30 @@
+
+name: ci
+
+on: 
+    push:
+        branches:
+          - main
+    pull_request:
+        branches:
+            - main
+
+jobs: 
+    ci:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+        
+            - name: Using node.js
+              uses: actions/setup-node@v2
+              with: 
+                node-version: 14.x
+
+            - name: Install and Build
+              run: |
+                cd app && npm install
+
+            - name: Stoplight
+              run: 
+                npx @stoplight/cli@6 push --ci-token c889a51e-b9d9-4810-ba41-91fca43e62b2
