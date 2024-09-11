@@ -26,5 +26,5 @@ jobs:
                 npm install
 
             - name: Stoplight
-              run: 
+              run: |
                 npx @stoplight/cli@6 push --ci-token c889a51e-b9d9-4810-ba41-91fca43e62b2
