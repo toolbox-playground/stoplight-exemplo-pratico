@@ -1,32 +1,30 @@
-
-name: StopLight
+name: Stoplight
 
 on: 
-    push:
-        branches:
-          - main
-    pull_request:
-        branches:
-            - main
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs: 
-    StopLight:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v3
-        
-            - name: Using node.js
-              uses: actions/setup-node@v2
-              with: 
-                node-version: 16.x
+  Stoplight:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with: 
+          node-version: '16.x'
 
-            - name: Install and Build
-              run: |
-                npm install
+      - name: Install dependencies
+        run: |
+          npm install
 
-            - name: Stoplight
-              run: |
-                npx @stoplight/cli@6 push --ci-token a421b697-64c2-4518-a5d6-a986c3ab3b2f
-
-
+      - name: Push to Stoplight
+        run: |
+          set -e  # Garante que a pipeline falhe em caso de erros
+          npx @stoplight/cli@6 push --ci-token a421b697-64c2-4518-a5d6-a986c3ab3b2f

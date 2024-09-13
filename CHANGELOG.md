@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.1.11 (2024-09-13)
+
+## 1.1.10 (2024-09-13)
+
+## 1.1.9 (2024-09-13)
+
+
+### Bug Fixes
+
+* testando novo token para stoplight ([3ebd900](https://github.com/toolbox-playground/stoplight-exemplo-pratico/commit/3ebd90058a3127066c4f285cf4fb740a18894d57))
+
 ## 1.1.8 (2024-09-11)
 
 ## 1.1.7 (2024-09-11)
