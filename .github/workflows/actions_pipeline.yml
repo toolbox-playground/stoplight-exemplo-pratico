@@ -26,5 +26,4 @@ jobs:
 
       - name: Push to Stoplight
         run: |
-          set -e  # Garante que a pipeline falhe em caso de erros
           npx @stoplight/cli@6 push --ci-token a421b697-64c2-4518-a5d6-a986c3ab3b2f
