@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.1.12 (2024-09-13)
+
+
+### Bug Fixes
+
+* alterando caminho da uri para push no stoplight ([a4ad863](https://github.com/toolbox-playground/stoplight-exemplo-pratico/commit/a4ad863acd28016f94dd98f915522b2228c6ab33))
+
 ## 1.1.11 (2024-09-13)
 
 ## 1.1.10 (2024-09-13)

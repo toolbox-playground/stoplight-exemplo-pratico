@@ -1,6 +1,6 @@
 {
   "name": "stoplight-exemplo-pratico",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "Repositório com exemplo de execução de stoplight via pipeline!",
   "main": "index.js",
   "scripts": {
