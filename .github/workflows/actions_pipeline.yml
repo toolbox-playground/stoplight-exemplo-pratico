@@ -27,6 +27,7 @@ jobs:
 
             - name: Stoplight
               run: |
-                npx @stoplight/cli@6 push --ci-token 8011618f-ff7e-465a-a0bb-32a52fb81051 --url https://bruno-dela-val.stoplight.io/
+                npx @stoplight/cli@6 push --ci-token 05b35e93-1614-4957-86ef-a6fd9d6ae190
+
 
 
